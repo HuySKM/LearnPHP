@@ -17,6 +17,15 @@ $students ["SV3"] = array("id"=>1,
                         "age"=>18,
                         "points"=> array(9,8,8));
 
+// Thay thế tên SV1 = giá trị mới
+
+$students ["SV1"]["name"] = "Hoang";
+
+// Thay diem SV1 bang gia tri moi
+
+$students ["SV1"]["points"][2] = 10;
+
+
 echo "<pre>";
 print_r ($students);
 echo "</pre>";
