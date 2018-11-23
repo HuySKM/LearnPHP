@@ -1,0 +1,41 @@
+question_id|option_id|point
+11|a|Vào buổi sáng|2
+11|b|Vào buổi chiều chớm tối|4
+11|c|Vào buổi tối|6
+12|a|Khá nhanh|6
+12|b|Khá nhanh & bước chân ngắn|4
+12|c|Không nhanh lắm|7
+12|d|Không nhanh lắm, đầu cúi xuống|2
+12|e|Rất chậm|1
+31|a|Khá nhanh|6
+31|b|Khá nhanh & bước chân ngắn|4
+31|c|Không nhanh lắm|7
+31|d|Không nhanh lắm, đầu cúi xuống|2
+31|e|Rất chậm|1
+43|a|Khá nhanh|6
+43|b|Khá nhanh & bước chân ngắn|4
+43|c|Không nhanh lắm|7
+43|d|Không nhanh lắm, đầu cúi xuống|2
+15|a|Khá nhanh|6
+15|b|Khá nhanh & bước chân ngắn|4
+15|c|Không nhanh lắm|7
+15|d|Không nhanh lắm, đầu cúi xuống|2
+15|e|Rất chậm|1
+26|a|Khá nhanh|6
+26|b|Khá nhanh & bước chân ngắn|4
+26|c|Không nhanh lắm|7
+17|a|Khá nhanh|6
+17|b|Khá nhanh & bước chân ngắn|4
+17|c|Không nhanh lắm|7
+38|a|Khá nhanh|6
+38|b|Khá nhanh & bước chân ngắn|4
+38|c|Không nhanh lắm|7
+19|a|Khá nhanh|6
+19|b|Khá nhanh & bước chân ngắn|4
+19|c|Không nhanh lắm|7
+19|d|Không nhanh lắm, đầu cúi xuống|2
+18|a|Khá nhanh|6
+18|b|Khá nhanh & bước chân ngắn|4
+18|c|Không nhanh lắm|7
+18|d|Không nhanh lắm, đầu cúi xuống|2
+18|e|Rất chậm|1

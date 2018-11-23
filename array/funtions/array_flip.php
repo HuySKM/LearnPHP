@@ -9,4 +9,4 @@ echo "<pre>";
 print_r ($tmp);
 echo "</pre>";
 
-// Hàm đảo ngược lại vị trí của khóa (key) và giá trị (value)
+// Hàm đảo ngược lại vị trí (array_flip) của khóa (key) và giá trị (value)

@@ -1,0 +1,7 @@
+﻿min|max|result
+0|20|Người vớ vẩn
+21|30|Người keo kiệt
+31|40|Người bủn xỉn
+41|50|Người khốn nạn
+51|60|Người được coi trọng
+61|200|Người hoàn hảo vl

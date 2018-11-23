@@ -1,0 +1,11 @@
+id|Question
+11|Bạn cảm thấy thế nào?
+12|Bạn thường bước đi:
+31|Khi bạn nói chuyện với người khác, bạn:
+43|Khi ngạc nhiên, bạn phản ứng thế nào?
+15|Khi đi dự tiệc bạn:
+26|Bạn đang làm việc tập trung và có ai đó cắt ngang, bạn:
+17|Bạn thích màu nào nhất?
+38|Khi bạn nghỉ ngơi bạn thường làm gì?
+19|Khi bạn đi ngủ bạn thường nằm ở tử thế nào?
+18|Bạn có thích xxx không?
