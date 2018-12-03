@@ -27,41 +27,27 @@
         $menu [] = array('id'=>24, 'name'=>'Galaxy A9', 'parents'=>17);
         $menu [] = array('id'=>25, 'name'=>'Galaxy Note 9', 'parents'=>17);
 
-        foreach ($menu as $key =>$value){
-            if($value['parents'] == 0){
-               $value['level'] = $value['parents'] + 1;
-               $newArray[] = $value;
-
-               $parents = $value['id'];
-
-               foreach ($menu as $key1=>$value1){
-                   if($value1['parents'] == $parents ){
-                     $value1['level'] =  $value['level'] + 1;
-                     $newArray[] = $value1;
-                     unset($menu[$key1]);
-
-                $parents1 = $value1['id'];
-
-                foreach ($menu as $key2=> $value2){
-                    if($value2['parents'] == $parents1 ) {
-                       $value2['level'] =  $value1['level'] + 1;
-                       $newArray [] = $value2;
-                       unset($menu[$key2]);
-
-
-                       }
+        function recursive ($sourceArr, $parents = 0, $level = 1, & $resultArr){
+            if(count($sourceArr)> 0){
+                foreach ($sourceArr as $key => $value){
+                  if($value['parents']== $parents){
+                    $value['level'] = $level;
+                    $resultArr[] = $value;
+                    $newParents = $value['id'];
+                    unset($sourceArr[$key]);
+                    recursive ($sourceArr, $newParents, $level + 1,$resultArr);
                     }
-                  }
-               }
-
+                }
             }
         }
-        foreach ($newArray as $key =>$value){
 
+        recursive ($menu, 0, 1,$newArray);
+
+        foreach ($newArray as $key =>$value){
             if($value['level'] == 1){
                 echo '<div style ="border: 1px solid #CCC">+ ' . $value['name'] . '</div>';
             }else {
-                $padding = ($value['level'] - 1) * 25;
+                $padding = ($value['level'] - 1) * 20;
                 $padding = 'padding-left: ' . $padding . 'px;';
                 echo '<div style ="border: 1px solid #CCC;' . $padding . '">- ' . $value['name'] . '</div>';
             }
